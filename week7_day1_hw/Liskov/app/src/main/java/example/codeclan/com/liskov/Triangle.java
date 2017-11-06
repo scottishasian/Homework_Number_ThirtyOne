@@ -5,4 +5,8 @@ package example.codeclan.com.liskov;
  */
 
 public class Triangle extends Shape {
+
+    public Triangle(String type) {
+        super(type);
+    }
 }

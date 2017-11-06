@@ -17,9 +17,9 @@ public class ArtistTest {
     @Before
     public void before(){
         artist = new Artist();
-        square = new Square();
-        circle = new Circle();
-        triangle = new Triangle();
+        square = new Square("I'm drawing a square!");
+        circle = new Circle("I'm drawing a circle!");
+        triangle = new Triangle("I'm drawing a triangle!");
     }
 
     @Test

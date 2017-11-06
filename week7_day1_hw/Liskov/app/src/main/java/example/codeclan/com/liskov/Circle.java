@@ -6,4 +6,7 @@ package example.codeclan.com.liskov;
 
 class Circle extends Shape {
 
+    public Circle(String type) {
+        super(type);
+    }
 }

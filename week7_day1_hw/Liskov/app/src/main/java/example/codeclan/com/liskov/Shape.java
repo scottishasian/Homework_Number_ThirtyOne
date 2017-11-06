@@ -5,5 +5,14 @@ package example.codeclan.com.liskov;
  */
 
 abstract class Shape {
+    private String type;
+
+    public Shape(String type) {
+        this.type = type;
+    }
+
+    public String getTypeName() {
+        return this.type;
+    }
 
 }
