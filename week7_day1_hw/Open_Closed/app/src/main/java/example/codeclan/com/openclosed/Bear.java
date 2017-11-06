@@ -15,9 +15,9 @@ import java.util.ArrayList;
 
 public class Bear{
 
-    private ArrayList<Salmon> belly = new ArrayList<Salmon>();
+    private ArrayList<Food> belly = new ArrayList<Food>();
 
-    public void eat(Salmon food){
+    public void eat(Food food){
         if (!isBellyFull()){
             belly.add(food);
         }
