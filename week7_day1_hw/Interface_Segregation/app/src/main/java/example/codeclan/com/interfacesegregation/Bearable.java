@@ -14,10 +14,6 @@ public interface Bearable{
     public Seal iceFish();
     public Honey harvestHoney();
     public Bamboo harvestBamboo();
-    public String sleep();
-    public String climbRock();
-    public String climbTree();
-    public String climbIceberg();
-    public void eat(Edible food);
+
 
 }

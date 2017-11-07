@@ -6,7 +6,7 @@ package example.codeclan.com.interfacesegregation;
 
 import java.util.ArrayList;
 
-public class Bear implements Bearable{
+public class Bear implements Bearable, Climbing, Behaviours{
 
     // The Interface Segregation Principle states that:
     // "No client should be forced to depend on methods it does not use"
